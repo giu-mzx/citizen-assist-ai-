@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "categoria": "Bolsas e Financiamento",
+    "titulo": "Bolsa de estudos do ProUni",
+    "palavras_chave": ["prouni", "bolsa integral", "bolsa parcial", "bolsa de estudo", "bolsa de estudos", "universidade para todos"],
+    "resposta": "O ProUni oferece bolsas de 100% (integral) ou 50% (parcial) em faculdades particulares. A inscrição é gratuita e feita pela internet, no Portal Acesso Único do MEC, usando uma conta gov.br. Para a bolsa integral, a renda familiar deve ser de até 1,5 salário mínimo por pessoa. Para a parcial, deve ser de até 3 salários mínimos por pessoa. Também é necessário atender às regras de nota do Enem e de escolaridade. Consulte o edital para saber todos os requisitos.",
+    "documentos": ["Conta gov.br (CPF e senha)", "Resultado do Enem"],
+    "onde": "Portal Acesso Único do MEC: https://acessounico.mec.gov.br/prouni",
+    "fonte": "https://acessounico.mec.gov.br/prouni",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 2,
+    "categoria": "Bolsas e Financiamento",
+    "titulo": "Nota mínima do Enem para o ProUni",
+    "palavras_chave": ["nota minima", "nota do enem", "media minima", "redacao"],
+    "resposta": "Em 2026, foi necessário ter média de pelo menos 450 pontos nas cinco provas do Enem e nota maior que zero na redação. As edições do Enem aceitas podem mudar a cada seleção. Por isso, consulte o edital do processo seletivo.",
+    "documentos": ["Resultado do Enem"],
+    "onde": "Portal Acesso Único do MEC: https://acessounico.mec.gov.br/prouni",
+    "fonte": "https://acessounico.mec.gov.br/prouni",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 3,
+    "categoria": "Bolsas e Financiamento",
+    "titulo": "Calcular a renda familiar por pessoa (ProUni)",
+    "palavras_chave": ["renda per capita", "renda por pessoa", "calcular renda", "renda familiar"],
+    "resposta": "Some a renda bruta mensal de todas as pessoas que moram na mesma casa. Depois, divida o total pelo número de moradores. Para conseguir a bolsa integral, o resultado deve ser de até 1,5 salário mínimo por pessoa. Para a bolsa parcial, deve ser de até 3 salários mínimos por pessoa. Se você for pré-selecionado, precisará apresentar documentos que comprovem a renda.",
+    "documentos": ["Comprovantes de renda das pessoas que moram na casa (solicitados na pré-seleção)"],
+    "onde": "A informação deve ser preenchida durante a inscrição no Portal Acesso Único do MEC.",
+    "fonte": "https://acessounico.mec.gov.br/prouni",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 4,
+    "categoria": "Bolsas e Financiamento",
+    "titulo": "O que fazer depois de ser pré-selecionado no ProUni",
+    "palavras_chave": ["pre selecionado", "pre selecao", "resultado prouni", "lista de espera"],
+    "resposta": "Se você for pré-selecionado, deverá comprovar as informações que colocou na inscrição diretamente na instituição de ensino escolhida. Leve os documentos solicitados, incluindo os que comprovam sua escolaridade. A lista completa está disponível no site do ProUni. O resultado e a lista de espera podem ser consultados no Portal Acesso Único, usando sua conta gov.br.",
+    "documentos": ["Documentos que comprovem as informações da inscrição (consulte a lista no site do ProUni)", "Comprovante de escolaridade do ensino médio"],
+    "onde": "Na instituição de ensino escolhida. O resultado pode ser consultado no Portal Acesso Único do MEC.",
+    "fonte": "https://acessounico.mec.gov.br/prouni",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 5,
+    "categoria": "Bolsas e Financiamento",
+    "titulo": "Financiamento estudantil (Fies)",
+    "palavras_chave": ["fies", "financiamento estudantil", "financiar faculdade", "financiamento"],
+    "resposta": "O Fies ajuda a pagar os custos de cursos em faculdades particulares por meio de financiamento. A inscrição é gratuita e feita pela internet, no Portal Acesso Único do MEC, usando uma conta gov.br. Em 2026, foi necessário ter feito o Enem sem participar como treineiro, não ter zerado a redação e ter renda familiar bruta mensal de até 3 salários mínimos por pessoa. As datas e regras podem mudar conforme o edital.",
+    "documentos": ["Conta gov.br (CPF e senha)", "Resultado do Enem"],
+    "onde": "Portal Acesso Único do MEC: https://acessounico.mec.gov.br/fies",
+    "fonte": "https://acessounico.mec.gov.br/fies",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 6,
+    "categoria": "Bolsas e Financiamento",
+    "titulo": "Vagas do Fies Social (famílias de baixa renda)",
+    "palavras_chave": ["fies social", "fies cadunico", "vagas fies social", "menor renda"],
+    "resposta": "O Fies reserva 50% das vagas para o Fies Social. Para participar, é necessário ter renda familiar de até meio salário mínimo por pessoa e estar inscrito no CadÚnico. A identificação é feita automaticamente pelo CPF. Se for pré-selecionado, o estudante pode solicitar o financiamento de 100% dos encargos educacionais e não precisa comprovar a renda na instituição de ensino.",
+    "documentos": ["CPF", "Inscrição no CadÚnico"],
+    "onde": "Portal Acesso Único do MEC: https://acessounico.mec.gov.br/fies",
+    "fonte": "https://acessounico.mec.gov.br/fies",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 7,
+    "categoria": "Cadastros e Documentos",
+    "titulo": "Fazer o Cadastro Único (CadÚnico)",
+    "palavras_chave": ["cadunico", "cadastro unico", "cad unico", "inscricao cadunico", "cras"],
+    "resposta": "Para fazer o cadastro, uma pessoa da família deve ir ao CRAS ou a um posto do Cadastro Único da cidade. Essa pessoa será o Responsável Familiar. Também é possível fazer um pré-cadastro pelo site ou aplicativo do CadÚnico, usando uma conta gov.br. Mesmo assim, é necessário ir ao CRAS para concluir a inscrição. Leve os documentos de todas as pessoas que moram na casa.",
+    "documentos": ["Documento com foto do Responsável Familiar", "Documento de cada pessoa que mora na casa (como CPF, certidão de nascimento, título de eleitor ou carteira de trabalho)", "Comprovante de endereço (não é obrigatório, mas ajuda)"],
+    "onde": "CRAS ou posto do Cadastro Único da sua cidade.",
+    "fonte": "https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 8,
+    "categoria": "Cadastros e Documentos",
+    "titulo": "Emitir o comprovante do CadÚnico",
+    "palavras_chave": ["comprovante cadunico", "comprovante do cadunico", "comprovante de inscricao", "consultar cadunico"],
+    "resposta": "Você pode emitir o comprovante de inscrição pelo site ou aplicativo do Cadastro Único, usando sua conta gov.br. Também é possível solicitar o documento no CRAS. Algumas instituições exigem que o cadastro esteja atualizado. Se houver informações desatualizadas, procure o CRAS para fazer a atualização.",
+    "documentos": ["Conta gov.br (CPF e senha)"],
+    "onde": "Site ou aplicativo do Cadastro Único: https://cadunico.dataprev.gov.br ou CRAS.",
+    "fonte": "https://cadunico.dataprev.gov.br",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 9,
+    "categoria": "Cadastros e Documentos",
+    "titulo": "Criar a conta gov.br",
+    "palavras_chave": ["gov br", "login gov br", "criar conta", "conta gov"],
+    "resposta": "A conta gov.br é usada para acessar vários serviços do governo, incluindo as inscrições do ProUni e do Fies. Se você ainda não tem uma conta, pode criar uma pelo site ou aplicativo gov.br, usando seu CPF.",
+    "documentos": ["CPF"],
+    "onde": "Site ou aplicativo gov.br: https://www.gov.br",
+    "fonte": "https://www.gov.br",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 10,
+    "categoria": "Enem",
+    "titulo": "Pedir isenção da taxa do Enem",
+    "palavras_chave": ["isencao enem", "isencao da taxa", "isencao", "taxa do enem", "taxa de inscricao", "enem de graca", "enem gratis"],
+    "resposta": "O Inep oferece isenção da taxa do Enem para quem atende aos critérios do edital. Entre os casos previstos estão estudantes do 3º ano do ensino médio em escola pública, pessoas de baixa renda, inscritos no CadÚnico e beneficiários do Pé-de-Meia. O pedido deve ser feito pela Página do Participante, dentro do prazo divulgado pelo Inep. Em 2026, o prazo foi de 13 a 24 de abril. Se você faltou às provas do Enem anterior, também precisa justificar a ausência. Atenção: conseguir a isenção não significa que você já está inscrito no Enem. É necessário fazer a inscrição quando o prazo abrir.",
+    "documentos": ["Os documentos dependem do motivo do pedido de isenção. Consulte o edital do Inep."],
+    "onde": "Página do Participante, no site do Inep: https://www.gov.br/inep/pt-br",
+    "fonte": "https://www.gov.br/inep/pt-br",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 11,
+    "categoria": "Transporte",
+    "titulo": "Solicitar o Bilhete Único de Estudante em São Paulo",
+    "palavras_chave": ["bilhete unico", "bilhete estudante", "meia tarifa", "bilhete unico estudante"],
+    "resposta": "O Bilhete Único de Estudante oferece meia tarifa ou gratuidade no transporte público, dependendo do grupo em que o estudante se encaixa. O benefício vale para ônibus municipais da cidade de São Paulo, metrô e trens. Para solicitar, primeiro avise sua faculdade. Ela deverá enviar seus dados de matrícula à SPTrans. Depois, faça o pedido pelo site da SPTrans. Existe uma taxa equivalente a sete tarifas, e os pedidos precisam respeitar o prazo de cada ano letivo. Consulte o site para verificar as datas e condições.",
+    "documentos": ["Matrícula ativa, enviada pela faculdade à SPTrans", "Pagamento da taxa de emissão ou revalidação"],
+    "onde": "Na faculdade e no site da SPTrans: https://bilheteunico.sptrans.com.br",
+    "fonte": "https://bilheteunico.sptrans.com.br",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 12,
+    "categoria": "Transporte",
+    "titulo": "Conseguir gratuidade no Bilhete Único de Estudante",
+    "palavras_chave": ["gratuidade", "gratuito", "tarifa zero", "passe livre", "bilhete unico gratuito"],
+    "resposta": "Para solicitar a gratuidade, o estudante precisa informar o número do NIS, que é obtido por meio do Cadastro Único. Depois, o órgão responsável faz a validação dos dados. Esse processo pode levar até 45 dias. Enquanto espera, o estudante pode utilizar a meia tarifa.",
+    "documentos": ["NIS (número obtido pelo CadÚnico)", "Bilhete Único de Estudante"],
+    "onde": "Site da SPTrans: https://bilheteunico.sptrans.com.br",
+    "fonte": "https://bilheteunico.sptrans.com.br",
+    "verificado_em": "2026-11-16"
+  }
+]
