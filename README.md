@@ -81,7 +81,7 @@ Antes de comparar, a pergunta, as palavras-chave e o título passam pelo `normal
 - gov.br: https://www.gov.br
   
 ## Resultado do teste com usuários
-O assistente foi testado com **3 pessoas de fora da equipe**, uma de cada vez, em **17 atendimentos** (6 por pergunta em texto livre e 11 pela navegação por categorias), todos em 18/11/2026. Nenhum nome ou dado das pessoas que testaram foi registrado. Os atendimentos de cada teste estão em `data/testes/` ([teste1.csv](data/testes/teste1.csv), [teste2.csv](data/testes/teste2.csv), [teste3.csv](data/testes/teste3.csv)) e juntos em `historico_testes.json` e `atendimentos_testes.csv`.
+O assistente foi testado com **3 pessoas de fora da equipe**, uma de cada vez, em **17 atendimentos** (6 por pergunta em texto livre e 11 pela navegação por categorias), todos em 18/11/2026. Nenhum nome ou dado das pessoas que testaram foi registrado. Os atendimentos de cada teste estão em `data/testes/`([atendimentos_teste1.csv](data/testes/atendimentos_teste1.csv), [atendimentos_teste2.csv](data/testes/atendimentos_teste2.csv), [atendimentos_teste3.csv](data/testes/atendimentos_teste3.csv)) e juntos em `historico_testes.json` e `atendimentos_testes.csv`.
  
 ### Indicadores por teste
 | Indicador | Teste 1 | Teste 2 | Teste 3 | **Geral** |
