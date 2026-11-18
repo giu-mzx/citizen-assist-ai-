@@ -1,0 +1,8 @@
+data,origem,pergunta,id_orientacao,encontrou,ajudou,tentativas,tempo,nota_facilidade
+2026-11-18,pergunta,bilhete único universitário,11,True,True,1,14.5,5
+2026-11-18,categoria,Conseguir gratuidade no Bilhete Único de Estudante,12,True,False,1,4.2,5
+2026-11-18,categoria,Nota mínima do Enem para o ProUni,2,True,True,1,5.2,5
+2026-11-18,categoria,Pedir isenção da taxa do Enem,10,True,True,1,4.4,5
+2026-11-18,categoria,Calcular a renda familiar por pessoa (ProUni),3,True,True,1,3.4,5
+2026-11-18,categoria,Bolsa de estudos do ProUni,1,True,True,1,6.5,5
+2026-11-18,categoria,Vagas do Fies Social (famílias de baixa renda),6,True,True,1,7.1,5

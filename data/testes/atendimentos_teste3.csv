@@ -1,0 +1,5 @@
+data,origem,pergunta,id_orientacao,encontrou,ajudou,tentativas,tempo,nota_facilidade
+2026-11-18,pergunta,Como eu uso o enem no prouni,1,True,True,1,34.6,5
+2026-11-18,categoria,Conseguir gratuidade no Bilhete Único de Estudante,12,True,True,1,9.4,5
+2026-11-18,categoria,Solicitar o Bilhete Único de Estudante em São Paulo,11,True,True,1,6.7,5
+2026-11-18,categoria,Pedir isenção da taxa do Enem,10,True,False,1,5.5,5
