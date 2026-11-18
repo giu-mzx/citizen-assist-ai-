@@ -14,7 +14,7 @@ class Orientacao:
         self.verificado_em = verificado_em
 
     def exibir(self):
-        print(f">> {self.titulo}  [{self.categoria}]")
+        print(f"-> {self.titulo}  [{self.categoria}] <-")
         print(self.resposta)
         print("Documentos necessários:")
         for doc in self.documentos:

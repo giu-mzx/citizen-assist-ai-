@@ -11,9 +11,9 @@ CSV_PATH = DATA_DIR / "atendimentos.csv"
 class Assistente:
     def __init__(self, nome, base):
         self.nome = nome
-        self.base = base                       # objeto BaseConhecimento
-        self.historico = self.ler_historico()  # lista de dicts
-        self.sessao = []                       # atendimentos desta execução
+        self.base = base
+        self.historico = self.ler_historico()
+        self.sessao = []
 
     # historico
     def ler_historico(self):
@@ -21,7 +21,7 @@ class Assistente:
             return []
         try:
             dados = json.loads(HISTORICO_PATH.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:   # arquivo corrompido não trava o programa
+        except json.JSONDecodeError:
             return []
         if type(dados) == list:
             return dados
@@ -99,7 +99,7 @@ class Assistente:
             print(f"\nConfiança da resposta: {confianca} ({pontos} pontos)\n")
             melhor.exibir()
 
-            alternativas = resultados[1:3]   # até duas alternativas
+            alternativas = resultados[1:3]
             if len(alternativas) > 0:
                 print("\nOutras orientações que podem ajudar:")
                 for pts, orientacao in alternativas:
@@ -199,7 +199,7 @@ class Assistente:
         if len(self.sessao) == 0:
             return
         while True:
-            resp = input("\nDe 1 a 5, qual a facilidade de usar o assistente? ").strip()
+            resp = input("\nDe 1 a 5, qual a facilidade de usar o assistente? (1 = muito difícil, 5 = muito fácil): ").strip()
             try:
                 nota = int(resp)
             except ValueError:

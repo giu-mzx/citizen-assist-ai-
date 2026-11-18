@@ -17,14 +17,14 @@ def exportar(assistente):
     if path_csv is None:
         print("Não foi possível exportar os atendimentos")
     else:
-        print(f"Os atendimentos foram exportados para {path_csv}")
+        print(f"Atendimentos exportados para data/{path_csv.name}")
 
 
 def main():
     base = BaseConhecimento(CAMINHO_BASE)
     base.carregar()
 
-    assistente = Assistente("Citizen Assist AI", base)
+    assistente = Assistente("Navi AI", base)
 
     print(f"\nBem-vindo(a) ao {assistente.nome}!")
     print("O objetivo desse assistente é fornecer orientações para universitários e estudantes de baixa renda.")
@@ -54,9 +54,10 @@ def main():
                 print("Até mais!")
             else:
                 assistente.pedir_nota()
-                # exporta o csv da sessão automaticamente, já com a nota dada pelo usuário
+                # exporta o csv da sessão automaticamente, já com a nota dada pelo usuário e evitando
+                # que o usuário esqueça de exportar manualmente
                 exportar(assistente)
-                print("Obrigado por utilizar o assistente e pela avaliação, até mais! :)")
+                print(f"\nObrigado por utilizar o Navi AI e pela avaliação, até mais! :)")
             break
         else:
             print("Opção inválida")
