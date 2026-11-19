@@ -130,5 +130,16 @@
     "onde": "Site da SPTrans: https://bilheteunico.sptrans.com.br",
     "fonte": "https://bilheteunico.sptrans.com.br",
     "verificado_em": "2026-11-16"
+  },
+  {
+    "id": 13,
+    "categoria": "Enem",
+    "titulo": "Enem: o que é e onde usar a nota",
+    "palavras_chave": ["enem", "sobre o enem", "o que e o enem", "que serve o enem", "como funciona o enem", "usar o enem"],
+    "resposta": "O Enem (Exame Nacional do Ensino Médio) é uma prova aplicada todo ano\npelo Inep. A nota pode ser usada para entrar no ensino superior de\nvárias formas: no Sisu, para vagas em universidades públicas; no ProUni,\npara bolsas em faculdades particulares; no Fies, para financiamento; e\nem seleções próprias de algumas instituições. Cada programa tem regras e\nprazos próprios, então consulte o edital do que você quer. Quem faz a\nprova como treineiro não pode usar a nota para entrar na faculdade. As\ndatas são divulgadas pelo Inep, e a inscrição e o resultado ficam na\nPágina do Participante.",
+    "documentos": ["Os documentos dependem do que você quer fazer (inscrição, isenção ou\n    ingresso). Consulte o edital do Inep e o de cada programa."],
+    "onde": "Página do Participante, no site do Inep:\n      https://www.gov.br/inep/pt-br",
+    "fonte": "https://www.gov.br/inep/pt-br",
+    "verificado_em": "2026-11-18"
   }
 ]
