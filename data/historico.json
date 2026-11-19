@@ -1,0 +1,189 @@
+[
+  {
+    "data": "2026-11-18",
+    "origem": "pergunta",
+    "pergunta": "bilhete único universitário",
+    "id_orientacao": 11,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 14.5,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Conseguir gratuidade no Bilhete Único de Estudante",
+    "id_orientacao": 12,
+    "encontrou": true,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo": 4.2,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Nota mínima do Enem para o ProUni",
+    "id_orientacao": 2,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 5.2,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Pedir isenção da taxa do Enem",
+    "id_orientacao": 10,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 4.4,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Calcular a renda familiar por pessoa (ProUni)",
+    "id_orientacao": 3,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 3.4,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Bolsa de estudos do ProUni",
+    "id_orientacao": 1,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 6.5,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Vagas do Fies Social (famílias de baixa renda)",
+    "id_orientacao": 6,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 7.1,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "pergunta",
+    "pergunta": "o Enem da acesso a entrar na UFABC?",
+    "id_orientacao": null,
+    "encontrou": false,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo": 31.2,
+    "nota_facilidade": 4
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "pergunta",
+    "pergunta": "Me fala sobre o Enem",
+    "id_orientacao": null,
+    "encontrou": false,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo": 14.3,
+    "nota_facilidade": 4
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "pergunta",
+    "pergunta": "é possível pedir isenção de taxa do Enem?",
+    "id_orientacao": 10,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 40.3,
+    "nota_facilidade": 4
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "pergunta",
+    "pergunta": "Quais são os critérios para pedir isenção da taxa do Enem?",
+    "id_orientacao": 10,
+    "encontrou": true,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo": 35.1,
+    "nota_facilidade": 4
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Conseguir gratuidade no Bilhete Único de Estudante",
+    "id_orientacao": 12,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 12.3,
+    "nota_facilidade": 4
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Fazer o Cadastro Único (CadÚnico)",
+    "id_orientacao": 7,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 9.3,
+    "nota_facilidade": 4
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "pergunta",
+    "pergunta": "Como eu uso o enem no prouni",
+    "id_orientacao": 1,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 34.6,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Conseguir gratuidade no Bilhete Único de Estudante",
+    "id_orientacao": 12,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 9.4,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Solicitar o Bilhete Único de Estudante em São Paulo",
+    "id_orientacao": 11,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo": 6.7,
+    "nota_facilidade": 5
+  },
+  {
+    "data": "2026-11-18",
+    "origem": "categoria",
+    "pergunta": "Pedir isenção da taxa do Enem",
+    "id_orientacao": 10,
+    "encontrou": true,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo": 5.5,
+    "nota_facilidade": 5
+  }
+]
