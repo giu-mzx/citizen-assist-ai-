@@ -81,7 +81,7 @@ Antes de comparar, a pergunta, as palavras-chave e o título passam pelo `normal
 - gov.br: https://www.gov.br
   
 ## Resultado do teste com usuários
-O assistente foi testado com **3 pessoas de fora da equipe**, uma de cada vez, em **17 atendimentos** (6 por pergunta em texto livre e 11 pela navegação por categorias), todos em 18/11/2026. Nenhum nome ou dado das pessoas que testaram foi registrado. Os atendimentos de cada teste estão em `data/testes/` ([teste1.csv](data/testes/teste1.csv), [teste2.csv](data/testes/teste2.csv), [teste3.csv](data/testes/teste3.csv)) e juntos em `historico_testes.json` e `atendimentos_testes.csv`.
+O assistente foi testado com **3 pessoas de fora da equipe**, uma de cada vez, em **17 atendimentos** (6 por pergunta em texto livre e 11 pela navegação por categorias), todos em 18/11/2026. Nenhum nome ou dado das pessoas que testaram foi registrado. Os atendimentos de cada teste estão em `data/testes/`([atendimentos_teste1.csv](data/testes/atendimentos_teste1.csv), [atendimentos_teste2.csv](data/testes/atendimentos_teste2.csv), [atendimentos_teste3.csv](data/testes/atendimentos_teste3.csv)) e juntos em `historico_testes.json` e `atendimentos_testes.csv`.
  
 ### Indicadores por teste
 | Indicador | Teste 1 | Teste 2 | Teste 3 | **Geral** |
@@ -104,9 +104,20 @@ Os valores são os da opção 3 do menu. O geral é calculado sobre os 17 atendi
 - A orientação de isenção da taxa do Enem foi marcada como "não ajudou" em 2 das 4 vezes em que apareceu, e a de gratuidade do Bilhete Único em 1 das 3.
 - A busca em texto livre foi usada em 6 atendimentos, e em 4 deles encontrou uma orientação (as outras 2 são as perguntas sobre o Enem acima).
 
+### Feedback dos usuários de teste
+
+- "No final eu não sabia como dar a nota, de 0 a 10 eu sempre vejo 10 como melhor, de 3 a 1 eu vejo 1 como melhor. No sistema de vocês é de 1 a 5, não sei se seria algo como 5 estrelas ou 1 de melhor colocação." - Por conta disso adicionamos "(1 = muito difícil, 5 = muito fácil)" na linha onde o assistente pede a nota.
+- "Senti falta de uma função que pegue caso eu escreva alguma coisa errado, como errar alguma letra de uma palavra específica, por exemplo escrever "favuldade" em vez de "faculdade." - Nesse caso decidimos não implementar isso no código, mas adicionamos um aviso sobre isso na seção "Limitações" do README.
+
+### Melhoria feita a partir do teste
+**Problema:** duas perguntas gerais sobre o Enem ("Me fala sobre o Enem" e "o Enem da acesso a entrar na UFABC?") não foram encontradas, porque a base só tinha orientações específicas sobre o Enem (isenção da taxa e nota mínima do ProUni).
+ 
+**O que foi feito:** a nova orientação **13**, "Enem: o que é e onde usar a nota" (categoria Enem), explica o que é o Enem e onde a nota pode ser usada (Sisu, ProUni, Fies e seleções próprias das instituições). As palavras-chave são gerais: `enem`, `sobre o enem`, `o que e o enem`, `que serve o enem`, `como funciona o enem` e `usar o enem`. A base passou de 12 para 13 orientações.
+ 
+**Resultado:** as duas perguntas agora são encontradas (7 e 4 pontos). As perguntas específicas do teste continuam indo para a mesma orientação de antes: como a nova é a última da base, em caso de empate vale a ordem anterior. Os indicadores acima são de **antes** da melhoria, e os testes não foram refeitos.
 
 ## Limitações
-- A busca compara palavra inteira: se a pessoa escrever "bolsas" no plural e a palavra-chave estiver no singular, não encontra. A solução é incluir as variações na base.
+- A busca compara palavra inteira: se a pessoa escrever "bolsas" no plural e a palavra-chave estiver no singular, não encontra. A solução seria incluir as variações na base.
 - Não corrige erros de digitação.
 - Palavras comuns do título (como "fazer") podem somar pontos sozinhas.
 - A regra de dados pessoais conta só os dígitos: uma pergunta com datas e anos (ex.: "13 a 24 de abril de 2026") passa de 8 dígitos e é recusada.
