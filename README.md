@@ -26,9 +26,9 @@ Precisa de Python 3 e não usa bibliotecas externas. Na pasta do projeto:
 python main.py
 ```
  
-O repositório já vem com `data/historico.json` e `data/atendimentos.csv` **limpos**, então o histórico, o CSV e os indicadores que aparecem são os da sua própria execução. Se apagar esses dois arquivos, o programa cria os dois de novo no primeiro atendimento.
+O repositório já vem com os atendimentos do teste com usuários em `data/historico.json` e `data/atendimentos.csv` (17 atendimentos), então a opção 3 do menu já mostra os indicadores do teste. Novos atendimentos são acrescentados a esses arquivos. Para começar do zero, apague os dois: o programa cria o histórico no primeiro atendimento e o CSV ao sair.
  
-Os atendimentos do teste com usuários estão em `data/testes/`. Para ver os indicadores do teste no programa, copie `data/testes/historico_testes.json` para `data/historico.json` e escolha a opção 3 do menu.
+Os atendimentos de cada teste estão separados em `data/testes/`.
  
 ## Como usar
 Ao abrir, o programa mostra o objetivo do assistente, avisa que ele não é um canal oficial e explica que perguntas com 8 ou mais números ou com `@` são recusadas. Depois mostra o menu:
