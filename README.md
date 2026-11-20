@@ -126,3 +126,4 @@ Os valores são os da opção 3 do menu. O geral é calculado sobre os 17 atendi
 - O tempo registrado inclui o tempo de digitação e leitura da pessoa, não só o da busca.
 
 ## Vídeo técnico
+https://youtu.be/9O-eIIcUeOk
